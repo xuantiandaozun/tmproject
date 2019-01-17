@@ -73,6 +73,9 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
     implementation project(':base.app')
+    implementation project(':uilibrary')
+    // implementation 'com.github.xuantiandaozun:baselibrary:0.04'
+  //  implementation 'com.github.xuantiandaozun:uilibrary:0.01'
 
     // fresco 图片加载框架
     implementation 'com.facebook.fresco:fresco:1.5.0'
@@ -88,7 +91,6 @@ dependencies {
     implementation 'com.github.hackware1993:MagicIndicator:1.5.0'
     implementation 'com.qiniu:qiniu-android-sdk:7.3.+'
     implementation 'com.zxy.android:tiny:0.0.6'
-    implementation 'com.github.xuantiandaozun:uilibrary:0.01'
     implementation 'com.zxy.android:tiny:0.0.6'
     implementation 'com.yuyh.bubble:library:1.0.0'
     implementation 'com.dalong:carrousellayout:1.0.0'
