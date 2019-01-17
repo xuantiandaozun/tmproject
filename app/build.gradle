@@ -111,12 +111,8 @@ dependencies {
     compile 'com.tianma.ventures:tm_userCenter_2nd:1.1.0'
     //个人中心
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-   // implementation project(':tianmayunxi')
     implementation project(':tianmayunxi02')
-  //   compile 'com.github.xuantiandaozun:tmyunxi:0.0.2-noshop8'
-    //compile 'com.github.xuantiandaozun:tmyunxi:0.0.2-shop5'
-    //  compile 'com.github.xuantiandaozun:tmhxdl:0.0.4-3'
-    //implementation 'android.arch.lifecycle:extensions:1.1.1'
+   // implementation 'com.github.xuantiandaozun.tmmodule:tianmayunxi02:0.0.1-t1'
+   // implementation 'com.github.xuantiandaozun.tmmodule:tmhxdl:0.0.1-t1'
     implementation project(':tmhxdl')
-   //  implementation project(':tianmayunxi')
 }
