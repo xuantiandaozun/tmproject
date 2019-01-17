@@ -42,18 +42,17 @@ public class AttachmentAdapter extends BaseQuickAdapter<AttachmentEntity, BaseVi
                 case ".JPEG":
                     if (!TextUtils.isEmpty(item.getLocalPath())) {
                         //显示本地图片
-                        Glide.with(mContext).load(item.getLocalPath())
-                                .placeholder(R.mipmap.loading_image_default_bg).into(attachmentFileIv);
+                        Glide.with(mContext).load(item.getLocalPath()).into(attachmentFileIv);
                     } else {
                         if (item.getFielFullName().contains("http://")) {
                             //显示网络图片
                             Glide.with(mContext).load(item.getFielFullName())
-                                    .placeholder(R.mipmap.loading_image_default_bg).into(attachmentFileIv);
+                                .into(attachmentFileIv);
 
                         } else {
                             //显示网络图片
                             Glide.with(mContext).load(item.getFilePath())
-                                    .placeholder(R.mipmap.loading_image_default_bg).into(attachmentFileIv);
+                                   .into(attachmentFileIv);
 
                         }
                     }

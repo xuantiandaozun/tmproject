@@ -112,7 +112,7 @@ dependencies {
     //个人中心
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation project(':tianmayunxi02')
-    //implementation 'com.github.xuantiandaozun.tmmodule:tianmayunxi02:0.0.1-t2'
-    //implementation 'com.github.xuantiandaozun.tmmodule:tmhxdl:0.0.1-t2'
+    //implementation 'com.github.xuantiandaozun.tmmodule:tianmayunxi02:0.0.1-t3'
+   // implementation 'com.github.xuantiandaozun.tmmodule:tmhxdl:0.0.1-t3'
     implementation project(':tmhxdl')
 }
