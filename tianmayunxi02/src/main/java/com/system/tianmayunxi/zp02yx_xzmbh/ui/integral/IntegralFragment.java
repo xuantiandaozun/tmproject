@@ -170,7 +170,7 @@ public class IntegralFragment extends MVPBaseFragment<OfficContract.View, OfficP
             delegate.setTextColor(getResources().getColor(R.color.blue_primary));
             tv_account.setText("去绑定");
         } else {
-            delegate.setBackgroundColor(getResources().getColor(R.color.yx02_textcolor01));
+            delegate.setBackgroundColor(getResources().getColor(R.color.textcolor01));
             delegate.setTextColor(getResources().getColor(R.color.white));
             tv_account.setText("已绑定");
         }
@@ -183,7 +183,7 @@ public class IntegralFragment extends MVPBaseFragment<OfficContract.View, OfficP
         RadiusTextViewDelegate delegate1 = tv_userinfo.getDelegate();
         boolean b = !TextUtils.isEmpty(sex) && !TextUtils.isEmpty(birthday) && !TextUtils.isEmpty(mobile) && !TextUtils.isEmpty(wb) && !TextUtils.isEmpty(wx) && !TextUtils.isEmpty(qq);
         if (b) {
-            delegate1.setBackgroundColor(getResources().getColor(R.color.yx02_textcolor01));
+            delegate1.setBackgroundColor(getResources().getColor(R.color.textcolor01));
             delegate1.setTextColor(getResources().getColor(R.color.white));
             tv_account.setText("已完成");
         }
@@ -192,7 +192,7 @@ public class IntegralFragment extends MVPBaseFragment<OfficContract.View, OfficP
 
         if (!TextUtils.isEmpty(tmToken)) {
             tv_login.setText("已领取");
-            delegate2.setBackgroundColor(getResources().getColor(R.color.yx02_textcolor01));
+            delegate2.setBackgroundColor(getResources().getColor(R.color.textcolor01));
             delegate2.setTextColor(getResources().getColor(R.color.white));
         }
 

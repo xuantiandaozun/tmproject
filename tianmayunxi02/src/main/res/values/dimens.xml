@@ -2,18 +2,18 @@
 <resources>
 
     <dimen name="material_15">15dp</dimen>
-    <dimen name="yx02_material_37">37dp</dimen>
-    <dimen name="yx02_material_19">19dp</dimen>
-    <dimen name="yx02_material_75">75dp</dimen>
+    <dimen name="material_37">37dp</dimen>
+    <dimen name="material_19">19dp</dimen>
+    <dimen name="material_75">75dp</dimen>
     <dimen name="material_70">70dp</dimen>
-    <dimen name="yx02_material_3">3dp</dimen>
-    <dimen name="yx02_material_60">60dp</dimen>
-    <dimen name="yx02_material_35">35dp</dimen>
-    <dimen name="yx02_material_170">170dp</dimen>
-    <dimen name="yx02_material_130">130dp</dimen>
-    <dimen name="yx02_material_180">180dp</dimen>
-    <dimen name="yx02_fixed_height_bottom_padding">5dp</dimen>
-    <dimen name="yx02_material_90">90dp</dimen>
-    <dimen name="yx02_material_230">230dp</dimen>
-    <dimen name="yx02_material_250">250dp</dimen>
+    <dimen name="material_3">3dp</dimen>
+    <dimen name="material_60">60dp</dimen>
+    <dimen name="material_35">35dp</dimen>
+    <dimen name="material_170">170dp</dimen>
+    <dimen name="material_130">130dp</dimen>
+    <dimen name="material_180">180dp</dimen>
+    <dimen name="fixed_height_bottom_padding">5dp</dimen>
+    <dimen name="material_90">90dp</dimen>
+    <dimen name="material_230">230dp</dimen>
+    <dimen name="material_250">250dp</dimen>
 </resources>
