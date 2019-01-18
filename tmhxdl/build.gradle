@@ -1,14 +1,12 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.jakewharton.butterknife'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.demoofzhouwen'//最后一个是github账号
 buildscript {
     repositories {
         mavenCentral()
     }
     dependencies {
         classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
-
     }
 }
 ext {
@@ -21,13 +19,8 @@ ext {
             versionName      : "0.0.1",
     ]
 }
-
 android {
     compileSdkVersion configuration.compileSdkVersion
-
-
-
-
     defaultConfig {
         minSdkVersion configuration.minSdkVersion
         targetSdkVersion configuration.targetSdk
@@ -49,7 +42,6 @@ android {
         ]
         multiDexEnabled true
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -68,13 +60,11 @@ android {
         exclude 'META-INF/rxjava.properties'
     }
 }
-
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
     implementation 'com.github.xuantiandaozun:baselibrary:0.04'
     implementation 'com.github.xuantiandaozun:uilibrary:0.01'
-
     // fresco 图片加载框架
     implementation 'com.facebook.fresco:fresco:1.5.0'
     implementation 'com.jakewharton:butterknife:8.5.1'
