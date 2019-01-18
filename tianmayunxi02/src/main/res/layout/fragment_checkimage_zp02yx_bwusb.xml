@@ -5,7 +5,7 @@
     xmlns:rv="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     xmlns:fresco="http://schemas.android.com/apk/res-auto"
-    android:background="@color/yx02_background012"
+    android:background="@color/background012"
     android:layout_height="match_parent">
     <LinearLayout
         android:id="@+id/titleBar"
@@ -55,7 +55,7 @@
                 android:layout_marginRight="@dimen/material_5"
                 android:visibility="gone"
                 android:layout_alignParentRight="true"
-                android:textColor="@color/yx02_textcolor09"
+                android:textColor="@color/textcolor09"
                 android:textSize="@dimen/material_font_13"
                 />
             <ImageView
@@ -73,7 +73,7 @@
     <com.tmall.ultraviewpager.UltraViewPager
         android:id="@+id/ultra_viewpager"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/yx02_material_250"
+        android:layout_height="@dimen/material_250"
         android:layout_centerVertical="true"
         android:layout_centerInParent="true" />
     <RelativeLayout
@@ -102,7 +102,7 @@
         android:id="@+id/re_bottom"
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
-        android:background="@color/yx02_background09"
+        android:background="@color/background09"
         android:padding="@dimen/material_5"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
@@ -117,14 +117,14 @@
             android:paddingBottom="5dp"
             android:paddingLeft="18dp"
             android:paddingRight="18dp"
-            android:textColorHint="@color/yx02_textcolor08"
+            android:textColorHint="@color/textcolor08"
             android:paddingTop="5dp"
             android:textColor="@color/white"
             rv:rv_textColor="@color/white"
             rv:rv_backgroundColor="@color/background010"
             rv:rv_radius="10dp"
             rv:rv_radiusHalfHeightEnable="true"
-            app:rv_backgroundColor="@color/yx02_background010" />
+            />
         <ImageView
             android:id="@+id/iv_pl"
             android:layout_width="wrap_content"

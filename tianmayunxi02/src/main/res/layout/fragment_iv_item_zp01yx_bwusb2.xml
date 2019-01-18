@@ -8,5 +8,5 @@
         android:id="@+id/iv"
         android:layout_width="@dimen/material_110"
         android:layout_height="@dimen/material_100"
-        fresco:roundedCornerRadius="@dimen/yx02_material_3"/>
+        fresco:roundedCornerRadius="@dimen/material_3"/>
 </LinearLayout>

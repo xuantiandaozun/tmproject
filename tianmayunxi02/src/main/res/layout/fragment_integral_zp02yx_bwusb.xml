@@ -46,7 +46,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:text="积分"
-                        android:textColor="@color/yx02_textcolor04"
+                        android:textColor="@color/textcolor04"
                         android:textSize="@dimen/material_font_13" />
 
                     <TextView
@@ -54,7 +54,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:textColor="@color/yx02_textcolor05"
+                        android:textColor="@color/textcolor05"
                         android:textSize="@dimen/material_font_24" />
                 </LinearLayout>
             </RelativeLayout>
@@ -122,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/titleBar"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/yx02_material_60"
+                android:layout_marginTop="@dimen/material_60"
                 android:elevation="@dimen/material_5"
                 android:gravity="center"
                 android:paddingLeft="10dp"
@@ -171,7 +171,7 @@
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_toRightOf="@+id/iv1"
                         android:text="新手任务"
-                        android:textColor="@color/yx02_textcolor02"
+                        android:textColor="@color/textcolor02"
                         android:textSize="@dimen/material_15" />
 
                     <ImageView
@@ -197,7 +197,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="完善资料"
-                            android:textColor="@color/yx02_textcolor02"
+                            android:textColor="@color/textcolor02"
                             android:textSize="@dimen/material_15" />
 
                         <TextView
@@ -239,8 +239,7 @@
                             rv:rv_backgroundColor="@color/background04"
                             rv:rv_radiusHalfHeightEnable="true"
                             rv:rv_rippleEnable="false"
-                            rv:rv_textColor="@color/blue_primary"
-                            app:rv_backgroundColor="@color/yx02_background04" />
+                            rv:rv_textColor="@color/blue_primary" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -249,7 +248,7 @@
                     android:layout_height="@dimen/material_1"
                     android:layout_marginLeft="@dimen/dp_10"
                     android:layout_marginRight="@dimen/dp_10"
-                    android:background="@color/yx02_line01"/>
+                    android:background="@color/line01"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -264,7 +263,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="绑定手机"
-                            android:textColor="@color/yx02_textcolor02"
+                            android:textColor="@color/textcolor02"
                             android:textSize="@dimen/material_15" />
 
                         <TextView
@@ -344,7 +343,7 @@
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_toRightOf="@+id/iv2"
                         android:text="日常任务"
-                        android:textColor="@color/yx02_textcolor02"
+                        android:textColor="@color/textcolor02"
                         android:textSize="@dimen/material_15" />
 
                 </RelativeLayout>
@@ -363,7 +362,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="登录奖励"
-                            android:textColor="@color/yx02_textcolor02"
+                            android:textColor="@color/textcolor02"
                             android:textSize="@dimen/material_15" />
 
                         <TextView
@@ -402,8 +401,7 @@
                             rv:rv_backgroundColor="@color/background04"
                             rv:rv_radiusHalfHeightEnable="true"
                             rv:rv_rippleEnable="false"
-                            rv:rv_textColor="@color/blue_primary"
-                            app:rv_backgroundColor="@color/yx02_background04" />
+                            rv:rv_textColor="@color/blue_primary" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -412,7 +410,7 @@
                     android:layout_height="@dimen/material_1"
                     android:layout_marginLeft="@dimen/dp_10"
                     android:layout_marginRight="@dimen/dp_10"
-                    android:background="@color/yx02_line01"/>
+                    android:background="@color/line01"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -428,7 +426,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="阅读奖励"
-                            android:textColor="@color/yx02_textcolor02"
+                            android:textColor="@color/textcolor02"
                             android:textSize="@dimen/material_15" />
 
                         <TextView
@@ -466,8 +464,7 @@
                             rv:rv_backgroundColor="@color/background04"
                             rv:rv_radiusHalfHeightEnable="true"
                             rv:rv_rippleEnable="false"
-                            rv:rv_textColor="@color/blue_primary"
-                            app:rv_backgroundColor="@color/yx02_background04" />
+                            rv:rv_textColor="@color/blue_primary" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -477,7 +474,7 @@
                     android:visibility="gone"
                     android:layout_marginLeft="@dimen/dp_10"
                     android:layout_marginRight="@dimen/dp_10"
-                    android:background="@color/yx02_line01"/>
+                    android:background="@color/line01"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -493,7 +490,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="评论文章"
-                            android:textColor="@color/yx02_textcolor02"
+                            android:textColor="@color/textcolor02"
                             android:textSize="@dimen/material_15" />
 
                         <TextView
@@ -531,8 +528,7 @@
                             rv:rv_backgroundColor="@color/background04"
                             rv:rv_radiusHalfHeightEnable="true"
                             rv:rv_rippleEnable="false"
-                            rv:rv_textColor="@color/blue_primary"
-                            app:rv_backgroundColor="@color/yx02_background04" />
+                            rv:rv_textColor="@color/blue_primary" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -542,7 +538,7 @@
                     android:visibility="gone"
                     android:layout_marginLeft="@dimen/dp_10"
                     android:layout_marginRight="@dimen/dp_10"
-                    android:background="@color/yx02_line01"/>
+                    android:background="@color/line01"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -558,7 +554,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="分享文章"
-                            android:textColor="@color/yx02_textcolor02"
+                            android:textColor="@color/textcolor02"
                             android:textSize="@dimen/material_15" />
 
                         <TextView
@@ -596,8 +592,7 @@
                             rv:rv_backgroundColor="@color/background04"
                             rv:rv_radiusHalfHeightEnable="true"
                             rv:rv_rippleEnable="false"
-                            rv:rv_textColor="@color/blue_primary"
-                            app:rv_backgroundColor="@color/yx02_background04" />
+                            rv:rv_textColor="@color/blue_primary" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -607,7 +602,7 @@
                     android:visibility="gone"
                     android:layout_marginLeft="@dimen/dp_10"
                     android:layout_marginRight="@dimen/dp_10"
-                    android:background="@color/yx02_line01"/>
+                    android:background="@color/line01"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -623,7 +618,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="发布主题文章"
-                            android:textColor="@color/yx02_textcolor02"
+                            android:textColor="@color/textcolor02"
                             android:textSize="@dimen/material_15" />
 
                         <TextView
@@ -661,8 +656,7 @@
                             rv:rv_backgroundColor="@color/background04"
                             rv:rv_radiusHalfHeightEnable="true"
                             rv:rv_rippleEnable="false"
-                            rv:rv_textColor="@color/blue_primary"
-                            app:rv_backgroundColor="@color/yx02_background04" />
+                            rv:rv_textColor="@color/blue_primary" />
                     </RelativeLayout>
 
                 </LinearLayout>
@@ -695,7 +689,7 @@
                 android:layout_marginTop="@dimen/material_5"
                 android:textSize="@dimen/material_font_12"
                 android:layout_marginBottom="@dimen/dp_10"
-                android:textColor="@color/yx02_textcolor01"
+                android:textColor="@color/textcolor01"
                 android:gravity="center"
                 android:visibility="invisible"
                 android:text="注: 完成上述全部日常任务, 可免费获得一次抽奖机会!"

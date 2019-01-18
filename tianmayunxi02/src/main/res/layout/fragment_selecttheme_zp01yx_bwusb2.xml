@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:textColor="@color/yx02_textcolor02"
+            android:textColor="@color/textcolor02"
             android:layout_marginLeft="@dimen/material_10"
             android:text="请选择所属主题"
             />

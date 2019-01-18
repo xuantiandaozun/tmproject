@@ -21,6 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/material_5"
-        android:textColor="@color/yx02_textcolor02"
+        android:textColor="@color/textcolor02"
         android:textSize="@dimen/material_font_14" />
 </LinearLayout>

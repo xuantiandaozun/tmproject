@@ -37,12 +37,12 @@
             android:layout_marginTop="@dimen/material_5"
             android:layout_marginLeft="@dimen/material_50"
             android:layout_marginRight="@dimen/material_50"
-            android:background="@color/yx02_line01"/>
+            android:background="@color/line01"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/material_1"
             android:layout_marginTop="@dimen/material_25"
-            android:background="@color/yx02_line01"/>
+            android:background="@color/line01"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -55,7 +55,7 @@
             <View
                 android:layout_width="@dimen/material_1"
                 android:layout_height="match_parent"
-                android:background="@color/yx02_line01"/>
+                android:background="@color/line01"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="1"

@@ -9,7 +9,7 @@
         android:id="@+id/re"
         android:layout_width="@dimen/material_70"
         android:layout_height="@dimen/material_70"
-        android:background="@color/yx02_background013"
+        android:background="@color/background013"
         android:layout_centerVertical="true">
         <ImageView
             android:id="@+id/iv"

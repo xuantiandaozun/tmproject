@@ -26,15 +26,15 @@
         android:gravity="center"
         android:padding="@dimen/material_10"
         android:textColor="@color/blue_primary"
-        android:background="@color/yx02_background05"
+        android:background="@color/background05"
         />
     <RelativeLayout
         android:id="@+id/re1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/yx02_material_37"
-        android:paddingRight="@dimen/yx02_material_37"
-        android:paddingTop="@dimen/yx02_material_15">
+        android:paddingLeft="@dimen/material_37"
+        android:paddingRight="@dimen/material_37"
+        android:paddingTop="@dimen/material_15">
         <ImageView
             android:id="@+id/iv1"
             android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
             android:layout_width="@dimen/material_1"
             android:layout_height="@dimen/material_20"
             android:layout_marginLeft="@dimen/material_5"
-            android:background="@color/yx02_line01"
+            android:background="@color/line01"
             android:layout_toRightOf="@+id/iv1"
             />
         <EditText
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:minWidth="@dimen/material_100"
             android:layout_toRightOf="@+id/iv1"
-            android:textColor="@color/yx02_textcolor01"
+            android:textColor="@color/textcolor01"
             android:textSize="@dimen/material_font_13"
             android:layout_marginLeft="@dimen/material_10"
             android:layout_centerVertical="true"
@@ -65,15 +65,15 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/background"
-            android:layout_marginTop="@dimen/yx02_material_15"
+            android:layout_marginTop="@dimen/material_15"
             android:layout_below="@+id/iv1"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/yx02_material_37"
-        android:paddingRight="@dimen/yx02_material_37"
-        android:paddingTop="@dimen/yx02_material_15">
+        android:paddingLeft="@dimen/material_37"
+        android:paddingRight="@dimen/material_37"
+        android:paddingTop="@dimen/material_15">
         <ImageView
             android:id="@+id/iv2"
             android:layout_width="wrap_content"
@@ -84,7 +84,7 @@
             android:layout_width="@dimen/material_1"
             android:layout_height="@dimen/material_20"
             android:layout_marginLeft="@dimen/material_5"
-            android:background="@color/yx02_line01"
+            android:background="@color/line01"
             android:layout_toRightOf="@+id/iv2"
             />
         <EditText
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:minWidth="@dimen/material_100"
             android:layout_toRightOf="@+id/iv2"
-            android:textColor="@color/yx02_textcolor01"
+            android:textColor="@color/textcolor01"
             android:textSize="@dimen/material_font_13"
             android:layout_marginLeft="@dimen/material_10"
             android:layout_centerVertical="true"
@@ -116,15 +116,15 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/background"
-            android:layout_marginTop="@dimen/yx02_material_15"
+            android:layout_marginTop="@dimen/material_15"
             android:layout_below="@+id/iv2"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/yx02_material_37"
-        android:paddingRight="@dimen/yx02_material_37"
-        android:paddingTop="@dimen/yx02_material_15">
+        android:paddingLeft="@dimen/material_37"
+        android:paddingRight="@dimen/material_37"
+        android:paddingTop="@dimen/material_15">
         <ImageView
             android:id="@+id/iv3"
             android:layout_width="wrap_content"
@@ -135,7 +135,7 @@
             android:layout_width="@dimen/material_1"
             android:layout_height="@dimen/material_20"
             android:layout_marginLeft="@dimen/material_5"
-            android:background="@color/yx02_line01"
+            android:background="@color/line01"
             android:layout_toRightOf="@+id/iv3"
             />
         <EditText
@@ -144,7 +144,7 @@
             android:layout_height="wrap_content"
             android:minWidth="@dimen/material_100"
             android:layout_toRightOf="@+id/iv3"
-            android:textColor="@color/yx02_textcolor01"
+            android:textColor="@color/textcolor01"
             android:textSize="@dimen/material_font_13"
             android:layout_marginLeft="@dimen/material_10"
             android:layout_centerVertical="true"
@@ -155,7 +155,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/background"
-            android:layout_marginTop="@dimen/yx02_material_15"
+            android:layout_marginTop="@dimen/material_15"
             android:layout_below="@+id/iv3"/>
     </RelativeLayout>
     <com.aries.ui.view.radius.RadiusTextView

@@ -119,6 +119,6 @@
         android:text="立即兑换"
         android:gravity="center"
         android:textColor="@color/blue_primary"
-        android:background="@color/yx02_background07"
+        android:background="@color/background07"
         />
 </RelativeLayout>

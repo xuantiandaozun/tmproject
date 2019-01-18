@@ -26,7 +26,7 @@
             android:layout_width="@dimen/material_70"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="@color/yx02_textcolor06"
+            android:textColor="@color/textcolor06"
             android:text="姓名"/>
         <EditText
             android:id="@+id/ed_nickname"
@@ -44,7 +44,7 @@
         android:layout_marginLeft="@dimen/material_20"
         android:layout_marginRight="@dimen/material_20"
         android:layout_height="@dimen/material_1"
-        android:background="@color/yx02_line01"/>
+        android:background="@color/line01"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             android:layout_width="@dimen/material_70"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="@color/yx02_textcolor06"
+            android:textColor="@color/textcolor06"
             android:text="手机号码"/>
         <EditText
             android:id="@+id/ed_phone"
@@ -73,7 +73,7 @@
         android:layout_marginLeft="@dimen/material_20"
         android:layout_marginRight="@dimen/material_20"
         android:layout_height="@dimen/material_1"
-        android:background="@color/yx02_line01"/>
+        android:background="@color/line01"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
             android:layout_width="@dimen/material_70"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="@color/yx02_textcolor06"
+            android:textColor="@color/textcolor06"
             android:text="地区"/>
         <EditText
             android:id="@+id/ed_city"
@@ -102,7 +102,7 @@
         android:layout_marginLeft="@dimen/material_20"
         android:layout_marginRight="@dimen/material_20"
         android:layout_height="@dimen/material_1"
-        android:background="@color/yx02_line01"/>
+        android:background="@color/line01"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -113,7 +113,7 @@
             android:layout_width="@dimen/material_70"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="@color/yx02_textcolor06"
+            android:textColor="@color/textcolor06"
             android:text="详细地址"/>
         <EditText
             android:id="@+id/ed_detail"

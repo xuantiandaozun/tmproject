@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="@dimen/yx02_material_15"
+        android:textSize="@dimen/material_15"
         android:paddingLeft="@dimen/material_10"
         android:paddingRight="@dimen/material_10"
         android:paddingTop="@dimen/material_5"
@@ -18,9 +18,9 @@
         rv:rv_backgroundSelectedColor="@android:color/holo_purple"
         rv:rv_radiusHalfHeightEnable="true"
         rv:rv_rippleEnable="true"
-        rv:rv_strokeColor="@color/yx02_line02"
+        rv:rv_strokeColor="@color/line02"
         rv:rv_strokeSelectedColor="@android:color/holo_red_dark"
         rv:rv_strokeWidth="0.5dp"
-        rv:rv_textColor="@color/yx02_textcolor01"
+        rv:rv_textColor="@color/textcolor01"
         rv:rv_textSelectedColor="@android:color/white"/>
 </LinearLayout>

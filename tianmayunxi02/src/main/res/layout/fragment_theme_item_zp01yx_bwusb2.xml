@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/material_font_13"
         android:layout_gravity="center_horizontal"
-        android:textColor="@color/yx02_textcolor02"
+        android:textColor="@color/textcolor02"
         android:layout_marginTop="@dimen/material_5"
      />
     <com.aries.ui.view.radius.RadiusTextView
