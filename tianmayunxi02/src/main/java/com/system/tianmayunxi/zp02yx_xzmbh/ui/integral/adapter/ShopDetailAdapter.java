@@ -21,7 +21,7 @@ import java.util.List;
 
 public class ShopDetailAdapter extends BaseQuickAdapter<String, BaseViewHolder> {
     public ShopDetailAdapter(@Nullable List<String> data) {
-        super(R.layout.fragment_shopdetail_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_shopdetail_item_zp01yx_bwusb2, data);
     }
 
     @Override

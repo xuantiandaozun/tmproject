@@ -13,7 +13,7 @@ import java.util.List;
 
 public class QdAdapter extends BaseQuickAdapter<ListSignBean.ListBean, BaseViewHolder> {
     public QdAdapter(@Nullable List<ListSignBean.ListBean> data) {
-        super(R.layout.fragment_qd_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_qd_item_zp01yx_bwusb2, data);
     }
 
     @Override

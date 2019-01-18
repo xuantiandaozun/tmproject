@@ -18,7 +18,7 @@ import java.util.List;
 
 public class IntegralShopAdapter extends BaseQuickAdapter<GoodsListBean.ListBean, BaseViewHolder> {
     public IntegralShopAdapter(@Nullable List<GoodsListBean.ListBean> data) {
-        super(R.layout.fragment_integralshop_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_integralshop_item_zp01yx_bwusb2, data);
     }
 
     @Override

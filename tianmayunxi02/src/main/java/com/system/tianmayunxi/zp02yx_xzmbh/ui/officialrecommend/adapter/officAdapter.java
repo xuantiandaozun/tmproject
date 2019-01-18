@@ -31,8 +31,8 @@ public class officAdapter  extends BaseMultiItemQuickAdapter<MultiItemEntity, Ba
      */
     public officAdapter(List<MultiItemEntity> data) {
         super(data);
-        addItemType(DATA_TYPE1, R.layout.layout_commensee_zp01yx_bwusb);
-        addItemType(DATA_TYPE2, R.layout.layout_tiezi_item_zp01yx_bwusb);
+        addItemType(DATA_TYPE1, R.layout.layout_commensee_zp01yx_bwusb2);
+        addItemType(DATA_TYPE2, R.layout.layout_tiezi_item_zp01yx_bwusb2);
     }
 
     @Override

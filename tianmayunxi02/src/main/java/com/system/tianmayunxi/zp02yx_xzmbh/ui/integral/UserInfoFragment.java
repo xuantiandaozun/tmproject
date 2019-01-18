@@ -35,7 +35,7 @@ public class UserInfoFragment extends MVPBaseFragment {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_userinfo_zp01yx_bwusb;
+        return R.layout.fragment_userinfo_zp01yx_bwusb2;
     }
 
     @Override
@@ -55,7 +55,7 @@ public class UserInfoFragment extends MVPBaseFragment {
         View inflate=null;
         switch (view.getId()){
             case R2.id.re_nickname:
-                 inflate = LayoutInflater.from(getThisContext()).inflate(R.layout.custom_nickname_zp01yx_bwusb, null, false);
+                 inflate = LayoutInflater.from(getThisContext()).inflate(R.layout.custom_nickname_zp02yx_bwusb, null, false);
                 DialogsTools.getInstance().CreateCustomViewDialog(inflate, new DialogsTools.onButtonClickListener() {
                     @Override
                     public void onClick(String message) {
@@ -64,7 +64,7 @@ public class UserInfoFragment extends MVPBaseFragment {
                 });
                 break;
             case R2.id.re_info:
-                 inflate = LayoutInflater.from(getThisContext()).inflate(R.layout.custom_info_zp01yx_bwusb, null, false);
+                 inflate = LayoutInflater.from(getThisContext()).inflate(R.layout.custom_info_zp02yx_bwusb, null, false);
                 DialogsTools.getInstance().CreateCustomViewDialog(inflate, new DialogsTools.onButtonClickListener() {
                     @Override
                     public void onClick(String message) {

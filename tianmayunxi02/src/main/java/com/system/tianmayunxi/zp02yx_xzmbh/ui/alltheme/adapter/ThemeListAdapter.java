@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ThemeListAdapter  extends BaseQuickAdapter<CommonSeeBean.ListBean, BaseViewHolder> {
     public ThemeListAdapter(@Nullable List<CommonSeeBean.ListBean> data) {
-        super(R.layout.fragment_themelist_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_themelist_item_zp01yx_bwusb2, data);
     }
 
     @Override

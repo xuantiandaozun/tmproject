@@ -18,7 +18,7 @@ import java.util.List;
 
 public class MySubAdapter extends BaseQuickAdapter<TieZiBean, BaseViewHolder> {
     public MySubAdapter(@Nullable List<TieZiBean> data) {
-        super(R.layout.fragment_mysub_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_mysub_item_zp01yx_bwusb2, data);
     }
 
     @Override

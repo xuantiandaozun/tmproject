@@ -1,7 +1,6 @@
 package com.system.tianmayunxi.zp02yx_xzmbh.ui.integral;
 
 import android.graphics.Color;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
@@ -11,10 +10,6 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 
 import com.aries.ui.view.radius.RadiusTextView;
-import com.bigkoo.convenientbanner.ConvenientBanner;
-import com.bigkoo.convenientbanner.holder.CBViewHolderCreator;
-import com.bigkoo.convenientbanner.listener.OnItemClickListener;
-import com.bigkoo.convenientbanner.listener.OnPageChangeListener;
 import com.system.myproject.base.MVPBaseFragment;
 import com.system.myproject.base.TMBaseFragment;
 import com.system.myproject.utils.GsonUtil;
@@ -22,7 +17,6 @@ import com.system.myproject.utils.ToastUtil;
 import com.system.tianmayunxi.zp02yx_xzmbh.R;
 import com.system.tianmayunxi.zp02yx_xzmbh.R2;
 import com.system.tianmayunxi.zp02yx_xzmbh.TmyxRouterConfig;
-import com.system.tianmayunxi.zp02yx_xzmbh.bean.BannerBean;
 import com.system.tianmayunxi.zp02yx_xzmbh.bean.EventCallBackBean;
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.integral.adapter.ShopDetailAdapter;
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.bean.GoodsDetailBean;
@@ -30,7 +24,6 @@ import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.bean.GoodsListBe
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.contract.OfficContract;
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.presenter.OfficPresenter;
 import com.system.tianmayunxi.zp02yx_xzmbh.utils.GlideImageLoader;
-import com.system.tianmayunxi.zp02yx_xzmbh.views.NetWorkImageHolderView;
 import com.system.uilibrary.views.titlebar.TitleBarView;
 import com.tenma.ventures.bean.utils.TMSharedPUtil;
 import com.youth.banner.Banner;
@@ -82,7 +75,7 @@ public class ShopDetailFragment extends MVPBaseFragment<OfficContract.View, Offi
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_shopdetail_zp01yx_bwusb;
+        return R.layout.fragment_shopdetail_zp01yx_bwusb2;
     }
 
     @Override

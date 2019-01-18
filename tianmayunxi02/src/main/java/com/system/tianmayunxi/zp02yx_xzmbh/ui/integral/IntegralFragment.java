@@ -95,7 +95,7 @@ public class IntegralFragment extends MVPBaseFragment<OfficContract.View, OfficP
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_integral_zp01yx_bwusb;
+        return R.layout.fragment_integral_zp02yx_bwusb;
     }
 
     @Override
@@ -336,7 +336,7 @@ public class IntegralFragment extends MVPBaseFragment<OfficContract.View, OfficP
                             getMyPoint();
                             isSign();
 
-                            View inflate = LayoutInflater.from(getThisContext()).inflate(R.layout.custom_sign_zp01yx_bwusb, null, false);
+                            View inflate = LayoutInflater.from(getThisContext()).inflate(R.layout.custom_sign_zp02yx_bwusb, null, false);
                             Dialog loadingDialog = new Dialog(getActivity(), com.system.uilibrary.R.style.MyDialogStyle);
                             RelativeLayout layout = (RelativeLayout) inflate.findViewById(R.id.re_main);
                             TextView tv_score = inflate.findViewById(R.id.tv_score);

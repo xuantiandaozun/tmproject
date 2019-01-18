@@ -72,7 +72,7 @@ public class UltraPagerAdapter extends PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        LinearLayout linearLayout = (LinearLayout) LayoutInflater.from(container.getContext()).inflate(R.layout.layout_child_zp01yx_bwusb, null);
+        LinearLayout linearLayout = (LinearLayout) LayoutInflater.from(container.getContext()).inflate(R.layout.layout_child_zp01yx_bwusb2, null);
         //new LinearLayout(container.getContext());
         SimpleDraweeView textView = (SimpleDraweeView) linearLayout.findViewById(R.id.pager_textview);
         textView.setOnClickListener(new View.OnClickListener() {

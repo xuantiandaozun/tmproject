@@ -64,7 +64,7 @@ public class ReportFragment extends MVPBaseFragment<OfficContract.View, OfficPre
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_report_zp01yx_bwusb;
+        return R.layout.fragment_report_zp01yx_bwusb2;
     }
 
     @Override

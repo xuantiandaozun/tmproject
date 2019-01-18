@@ -13,6 +13,9 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 def tm_core_versionName = properties.getProperty("tmCore.versionName")

@@ -1,6 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.xuantiandaozun'//最后一个是github账号
 ext {
     configuration = [
             buildToolsVersion: "26.0.2",
@@ -72,6 +70,9 @@ android {
     }
     packagingOptions {
         exclude 'META-INF/rxjava.properties'
+    }
+    lintOptions {
+        abortOnError false
     }
 
 }

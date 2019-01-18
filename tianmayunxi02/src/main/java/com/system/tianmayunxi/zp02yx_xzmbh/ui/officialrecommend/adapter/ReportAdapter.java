@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ReportAdapter extends BaseQuickAdapter<ReportBean, BaseViewHolder> {
     public ReportAdapter(@Nullable List<ReportBean> data) {
-        super(R.layout.fragment_report_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_report_item_zp01yx_bwusb2, data);
     }
 
     @Override

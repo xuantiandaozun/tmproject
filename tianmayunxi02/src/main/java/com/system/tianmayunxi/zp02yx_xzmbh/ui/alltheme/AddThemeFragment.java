@@ -92,7 +92,7 @@ public class AddThemeFragment extends MVPBaseFragment<AllThemeContract.View, All
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_addtheme_zp01yx_bwusb;
+        return R.layout.fragment_addtheme_zp02yx_bwusb;
     }
 
     @Override
@@ -139,7 +139,7 @@ public class AddThemeFragment extends MVPBaseFragment<AllThemeContract.View, All
                     }
                 });
         GridLayoutManager mGrdiLayoutManager = new GridLayoutManager(getThisContext(), 3);
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.add_themeiv_zp01yx_bwusb, null);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.add_themeiv_zp02yx_bwusb, null);
         TextView number = view.findViewById(R.id.tv_number);
         view.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -17,7 +17,7 @@ import java.util.List;
 
 public class DynamicAdapter extends BaseQuickAdapter<TieZiBean, BaseViewHolder> {
     public DynamicAdapter(@Nullable List<TieZiBean> data) {
-        super(R.layout.fragment_dynamic_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_dynamic_item_zp02yx_bwusb, data);
     }
 
     @Override

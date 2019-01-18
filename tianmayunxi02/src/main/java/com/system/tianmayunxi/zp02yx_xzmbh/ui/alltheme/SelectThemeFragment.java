@@ -56,7 +56,7 @@ public class SelectThemeFragment extends MVPBaseFragment<OfficContract.View, Off
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_selecttheme_zp01yx_bwusb;
+        return R.layout.fragment_selecttheme_zp01yx_bwusb2;
     }
 
     @Override

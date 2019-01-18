@@ -11,7 +11,6 @@ buildscript {
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -30,9 +29,20 @@ allprojects {
         maven {
             url "https://jitpack.io"
         }
+
     }
 }
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+//添加
+ext {
+    userOrg = 'zhou2395'
+    groupId = 'com.tm'
+    uploadName = 'zhou2395'
+    publishVersion = '0.0.1'
+    desc = 'a easy API to use runtime permission for Android M '
+    website = 'https://github.com/hongyangAndroid/MPermissions'
+    licences = ['Apache-2.0']
+}
+

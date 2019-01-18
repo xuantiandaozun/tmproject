@@ -60,7 +60,7 @@ public class IntegralShopFragment extends MVPBaseFragment <OfficContract.View, O
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_integralshop_zp01yx_bwusb;
+        return R.layout.fragment_integralshop_zp01yx_bwusb2;
     }
 
     @Override

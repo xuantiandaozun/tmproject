@@ -29,7 +29,7 @@ public class BindPhoneFragment extends MVPBaseFragment {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_bindphone_zp01yx_bwusb;
+        return R.layout.fragment_bindphone_zp02yx_bwusb;
     }
 
     @Override

@@ -39,7 +39,7 @@ public class AmountView extends LinearLayout implements View.OnClickListener, Te
     public AmountView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        LayoutInflater.from(context).inflate(R.layout.view_amount_zp01yx_bwusb, this);
+        LayoutInflater.from(context).inflate(R.layout.view_amount_zp01yx_bwusb2, this);
         etAmount = (TextView) findViewById(R.id.etAmount);
         btnDecrease = (Button) findViewById(R.id.btnDecrease);
         btnIncrease = (Button) findViewById(R.id.btnIncrease);

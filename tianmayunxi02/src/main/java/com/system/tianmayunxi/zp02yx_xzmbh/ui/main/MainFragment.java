@@ -63,7 +63,7 @@ public class MainFragment extends TMFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        this.rootView = inflater.inflate(R.layout.fragment_root_zp01yx_bwusb, container, false);
+        this.rootView = inflater.inflate(R.layout.fragment_root_zp01yx_bwusb2, container, false);
         this.unbinder = ButterKnife.bind(this, this.rootView);
 
         return this.rootView;

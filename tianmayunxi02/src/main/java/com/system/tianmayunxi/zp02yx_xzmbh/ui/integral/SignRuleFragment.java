@@ -37,7 +37,7 @@ public class SignRuleFragment extends MVPBaseFragment {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_signrule_zp01yx_bwusb;
+        return R.layout.fragment_signrule_zp01yx_bwusb2;
     }
 
     @Override

@@ -72,8 +72,7 @@ dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
     implementation 'com.github.xuantiandaozun:baselibrary:0.04'
-    //implementation project(':base.app')
-   // implementation project(':uilibrary')
+ //   implementation 'com.tm:baselib:0.0.1'
     implementation 'com.github.xuantiandaozun:uilibrary:0.01'
 
     // fresco 图片加载框架

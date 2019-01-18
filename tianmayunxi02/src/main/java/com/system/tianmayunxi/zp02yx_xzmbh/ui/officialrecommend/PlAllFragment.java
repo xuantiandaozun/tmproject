@@ -102,7 +102,7 @@ public class PlAllFragment extends MVPBaseFragment<OfficContract.View, OfficPres
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_plall_zp01yx_bwusb;
+        return R.layout.fragment_plall_zp01yx_bwusb2;
     }
 
     @Override

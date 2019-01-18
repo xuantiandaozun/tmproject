@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TieIvAdapter extends BaseQuickAdapter<String, BaseViewHolder> {
     public TieIvAdapter(@Nullable List<String> data) {
-        super(R.layout.fragment_tieiv_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_tieiv_item_zp01yx_bwusb2, data);
     }
 
     @Override

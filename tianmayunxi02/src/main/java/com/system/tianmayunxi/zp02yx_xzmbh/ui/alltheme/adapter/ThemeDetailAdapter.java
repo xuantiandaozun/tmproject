@@ -19,7 +19,7 @@ import java.util.List;
 
 public class ThemeDetailAdapter extends BaseQuickAdapter<TieZiBean, BaseViewHolder> {
     public ThemeDetailAdapter(@Nullable List<TieZiBean> data) {
-        super(R.layout.fragment_themedetail_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_themedetail_item_zp01yx_bwusb2, data);
     }
 
     @Override

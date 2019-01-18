@@ -16,7 +16,7 @@ import java.util.List;
 
 public class ThemeAdapter extends BaseQuickAdapter<AllThemBean.ListBean, BaseViewHolder> {
     public ThemeAdapter(@Nullable List<AllThemBean.ListBean> data) {
-        super(R.layout.fragment_theme_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_theme_item_zp01yx_bwusb2, data);
     }
 
     @Override

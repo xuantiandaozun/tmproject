@@ -43,7 +43,7 @@ public class MyIssueFragment extends BaseFragment {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_myissue_zp01yx_bwusb;
+        return R.layout.fragment_myissue_zp01yx_bwusb2;
     }
 
     @OnClick({R2.id.tv_dynamic,R2.id.tv_message})

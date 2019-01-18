@@ -11,7 +11,6 @@ import com.google.gson.Gson;
 import com.library.flowlayout.SpaceItemDecoration;
 import com.system.myproject.base.BaseFragment;
 import com.system.myproject.utils.GsonUtil;
-import com.system.myproject.utils.ToastUtil;
 import com.system.myproject.utils.UEMethod;
 import com.system.tianmayunxi.zp02yx_xzmbh.R;
 import com.system.tianmayunxi.zp02yx_xzmbh.R2;
@@ -50,7 +49,7 @@ public class AllThemeFragment extends BaseFragment<AllThemeContract.View, AllThe
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_alltheme_zp01yx_bwusb;
+        return R.layout.fragment_alltheme_zp02yx_bwusb;
     }
 
     @Override

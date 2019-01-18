@@ -26,7 +26,6 @@ import com.system.myproject.base.TMBaseFragment;
 import com.system.myproject.utils.GsonUtil;
 import com.system.myproject.utils.ToastUtil;
 import com.system.myproject.utils.UEMethod;
-import com.system.tianmayunxi.zp02yx_xzmbh.BuildConfig;
 import com.system.tianmayunxi.zp02yx_xzmbh.R;
 import com.system.tianmayunxi.zp02yx_xzmbh.R2;
 import com.system.tianmayunxi.zp02yx_xzmbh.TmyxRouterConfig;
@@ -35,7 +34,6 @@ import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.adapter.PlAdapte
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.adapter.TieIvAdapter;
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.bean.ArticMsgBean;
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.bean.ArticleDetail;
-import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.bean.TieZiBean;
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.contract.OfficContract;
 import com.system.tianmayunxi.zp02yx_xzmbh.ui.officialrecommend.presenter.OfficPresenter;
 import com.tenma.ventures.bean.TMUser;
@@ -126,7 +124,7 @@ public class TiDetailFragment extends MVPBaseFragment<OfficContract.View, OfficP
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_tidetail_zp01yx_bwusb;
+        return R.layout.fragment_tidetail_zp01yx_bwusb2;
     }
 
     @Override

@@ -46,21 +46,26 @@ public class Yunxiprovider extends ContentProvider {
     }
     @Override
     public boolean onCreate() {
-        ARouter.openLog();
-        ARouter.openDebug();
-        ARouter.init((Application) getContext());
-        FrescoImageLoader.init(getContext());
-        Fresco.initialize(getContext());
-        BaseApi.setContext(getContext());
-        Fragmentation.builder()
-                // 设置 栈视图 模式为 悬浮球模式   SHAKE: 摇一摇唤出   NONE：隐藏
-                .stackViewMode(Fragmentation.NONE)
-                // ture时，遇到异常："Can not perform this action after onSaveInstanceState!"时，会抛出
-                // false时，不会抛出，会捕获，可以在handleException()里监听到
-                .debug(false)
-                // 线上环境时，可能会遇到上述异常，此时debug=false，不会抛出该异常（避免crash），会捕获
-                // 建议在回调处上传至我们的Crash检测服务器
-                .install();
+        try {
+            ARouter.openLog();
+            ARouter.openDebug();
+            ARouter.init((Application) getContext());
+            FrescoImageLoader.init(getContext());
+            Fresco.initialize(getContext());
+            BaseApi.setContext(getContext());
+            Fragmentation.builder()
+                    // 设置 栈视图 模式为 悬浮球模式   SHAKE: 摇一摇唤出   NONE：隐藏
+                    .stackViewMode(Fragmentation.NONE)
+                    // ture时，遇到异常："Can not perform this action after onSaveInstanceState!"时，会抛出
+                    // false时，不会抛出，会捕获，可以在handleException()里监听到
+                    .debug(false)
+                    // 线上环境时，可能会遇到上述异常，此时debug=false，不会抛出该异常（避免crash），会捕获
+                    // 建议在回调处上传至我们的Crash检测服务器
+                    .install();
+        }catch (Exception e){
+
+        }
+
         return true;
     }
 

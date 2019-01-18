@@ -23,7 +23,7 @@ public class AddImagePhotoAdapter extends BaseQuickAdapter<AttachmentEntity, Bas
     ImageView attachmentFileIv;
     ImageView attachmentFileDeleteIv;
     public AddImagePhotoAdapter() {
-        super(R.layout.layout_attachment_view_zp01yx_bwusb);
+        super(R.layout.layout_attachment_view_zp01yx_bwusb2);
     }
 
     public void setListener(onRemoveListener listener) {

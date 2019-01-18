@@ -68,7 +68,7 @@ public class AppRootFragment extends MVPBaseFragment {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_root_zp01yx_bwusb;
+        return R.layout.fragment_root_zp01yx_bwusb2;
     }
 
     @Override

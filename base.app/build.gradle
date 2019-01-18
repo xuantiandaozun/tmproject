@@ -1,6 +1,4 @@
 apply plugin: "com.android.library"
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.demoofzhouwen'//最后一个是github账号
 ext {
     configuration = [
             buildToolsVersion: "26.0.2",
@@ -65,7 +63,6 @@ android {
     lintOptions {
         abortOnError false
     }
-
 }
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
@@ -126,7 +123,7 @@ dependencies {
     // 支持Gson解析
     api "com.squareup.retrofit2:converter-gson:${libs.retrofit}"
     api "com.tenma.ventures:tm_core:1.1.14"
-
-
 }
+
+
 

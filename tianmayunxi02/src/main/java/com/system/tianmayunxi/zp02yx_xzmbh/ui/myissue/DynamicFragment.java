@@ -19,7 +19,6 @@ import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.system.myproject.base.BaseFragment;
 import com.system.myproject.base.TMBaseFragment;
 import com.system.myproject.utils.GsonUtil;
-import com.system.myproject.utils.ToastUtil;
 import com.system.myproject.utils.UEMethod;
 import com.system.tianmayunxi.zp02yx_xzmbh.R;
 import com.system.tianmayunxi.zp02yx_xzmbh.R2;
@@ -72,7 +71,7 @@ public class DynamicFragment extends BaseFragment<OfficContract.View, OfficPrese
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_dynamic_zp01yx_bwusb;
+        return R.layout.fragment_dynamic_zp02yx_bwusb;
     }
 
     @Override

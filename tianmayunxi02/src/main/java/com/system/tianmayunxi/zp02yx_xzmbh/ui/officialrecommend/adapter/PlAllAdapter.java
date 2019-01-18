@@ -21,7 +21,7 @@ import java.util.List;
 
 public class PlAllAdapter extends BaseQuickAdapter<ArticMsgBean.ListBean, BaseViewHolder> {
     public PlAllAdapter(@Nullable List<ArticMsgBean.ListBean> data) {
-        super(R.layout.fragment_plall_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_plall_item_zp01yx_bwusb2, data);
     }
 
     @Override

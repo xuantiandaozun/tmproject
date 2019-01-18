@@ -16,7 +16,7 @@ import java.util.List;
 
 public class MessageAdapter  extends BaseQuickAdapter<MessageBean.ListBean, BaseViewHolder> {
     public MessageAdapter(@Nullable List<MessageBean.ListBean> data) {
-        super(R.layout.fragment_message_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_message_item_zp01yx_bwusb2, data);
     }
 
     @Override

@@ -38,7 +38,7 @@ public class MainActivity extends MVPBaseActivity {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.activity_main_zp01yx_bwusb;
+        return R.layout.activity_main_zp02yx_bwusb;
     }
 
     @Override

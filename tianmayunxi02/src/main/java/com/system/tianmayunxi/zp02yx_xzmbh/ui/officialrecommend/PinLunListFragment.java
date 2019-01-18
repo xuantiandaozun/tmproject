@@ -78,7 +78,7 @@ public class PinLunListFragment extends MVPBaseFragment<OfficContract.View, Offi
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_pllist_zp01yx_bwusb;
+        return R.layout.fragment_pllist_zp01yx_bwusb2;
     }
 
     @Override

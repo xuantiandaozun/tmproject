@@ -6,7 +6,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.TextView;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -20,7 +19,6 @@ import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.system.myproject.base.BaseFragment;
 import com.system.myproject.base.TMBaseFragment;
 import com.system.myproject.utils.GsonUtil;
-import com.system.myproject.utils.ToastUtil;
 import com.system.myproject.utils.UEMethod;
 import com.system.tianmayunxi.zp02yx_xzmbh.R;
 import com.system.tianmayunxi.zp02yx_xzmbh.R2;
@@ -76,7 +74,7 @@ public class OfficRecommendFragment extends BaseFragment<OfficContract.View, Off
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_official_recommend_zp01yx_bwusb;
+        return R.layout.fragment_official_recommend_zp01yx_bwusb2;
     }
 
     @Override

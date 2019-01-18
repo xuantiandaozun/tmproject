@@ -31,7 +31,7 @@ public class AccountFragment extends MVPBaseFragment {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_account_zp01yx_bwusb;
+        return R.layout.fragment_account_zp02yx_bwusb;
     }
 
     @Override

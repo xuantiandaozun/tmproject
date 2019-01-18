@@ -14,7 +14,7 @@ import java.util.List;
 
 public class CommonIvAdapter extends BaseQuickAdapter<CommonSeeBean.ListBean, BaseViewHolder> {
     public CommonIvAdapter(@Nullable List<CommonSeeBean.ListBean> data) {
-        super(R.layout.fragment_commoniv_item_zp01yx_bwusb, data);
+        super(R.layout.fragment_commoniv_item_zp02yx_bwusb, data);
     }
 
     @Override

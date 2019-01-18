@@ -65,7 +65,7 @@ public class AddAddressFragment extends MVPBaseFragment<OfficContract.View, Offi
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_addaddress_zp01yx_bwusb;
+        return R.layout.fragment_addaddress_zp02yx_bwusb;
     }
 
     @Override
