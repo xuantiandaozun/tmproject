@@ -35,14 +35,4 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-//添加
-ext {
-    userOrg = 'zhou2395'
-    groupId = 'com.tm'
-    uploadName = 'zhou2395'
-    publishVersion = '0.0.1'
-    desc = 'a easy API to use runtime permission for Android M '
-    website = 'https://github.com/hongyangAndroid/MPermissions'
-    licences = ['Apache-2.0']
-}
 

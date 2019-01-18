@@ -1,1 +1,1 @@
-include ':app', ':tm_navigation', ':tmhxdl', ':tianmayunxi', ':tianmayunxi02', ':base.app', ':uilibrary'
+include ':app', ':tm_navigation'
