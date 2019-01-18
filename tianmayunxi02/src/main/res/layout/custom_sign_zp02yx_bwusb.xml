@@ -40,7 +40,7 @@
             android:textSize="@dimen/material_font_12"
             android:layout_gravity="center_horizontal"
             android:layout_height="wrap_content"
-            android:textColor="@color/textcolor01"
+            android:textColor="@color/yx02_textcolor01"
             android:text="已连续签到1天"
             />
     </com.aries.ui.view.radius.RadiusLinearLayout>

@@ -50,19 +50,19 @@ public class MyIssueFragment extends BaseFragment {
     public void onClick(View view) {
         int id = view.getId();
         if(id==R.id.tv_dynamic){
-            tv_dynamic.setBackgroundResource(R.color.background03_zp01yx_bwusb);
+            tv_dynamic.setBackgroundResource(R.color.yx02_background03_zp01yx_bwusb);
             tv_dynamic.setTextColor(getResources().getColor(R.color.blue_primary_zp01yx_bwusb));
 
 
             tv_message.setBackgroundResource(R.color.white);
-            tv_message.setTextColor(getResources().getColor(R.color.textcolor02));
+            tv_message.setTextColor(getResources().getColor(R.color.yx02_textcolor02));
             mViewpager.setCurrentItem(0);
 
         }else if(id==R.id.tv_message){
             tv_dynamic.setBackgroundResource(R.color.white);
-            tv_dynamic.setTextColor(getResources().getColor(R.color.textcolor02));
+            tv_dynamic.setTextColor(getResources().getColor(R.color.yx02_textcolor02));
 
-            tv_message.setBackgroundResource(R.color.background03_zp01yx_bwusb);
+            tv_message.setBackgroundResource(R.color.yx02_background03_zp01yx_bwusb);
             tv_message.setTextColor(getResources().getColor(R.color.blue_primary_zp01yx_bwusb));
             mViewpager.setCurrentItem(1);
 
@@ -106,18 +106,18 @@ public class MyIssueFragment extends BaseFragment {
             public void onPageSelected(int position) {
                 switch (position) {
                     case 0:
-                        tv_dynamic.setBackgroundResource(R.color.background03_zp01yx_bwusb);
+                        tv_dynamic.setBackgroundResource(R.color.yx02_background03_zp01yx_bwusb);
                         tv_dynamic.setTextColor(getResources().getColor(R.color.blue_primary_zp01yx_bwusb));
 
 
                         tv_message.setBackgroundResource(R.color.white);
-                        tv_message.setTextColor(getResources().getColor(R.color.textcolor02));
+                        tv_message.setTextColor(getResources().getColor(R.color.yx02_textcolor02));
                         break;
                     case 1:
                         tv_dynamic.setBackgroundResource(R.color.white);
-                        tv_dynamic.setTextColor(getResources().getColor(R.color.textcolor02));
+                        tv_dynamic.setTextColor(getResources().getColor(R.color.yx02_textcolor02));
 
-                        tv_message.setBackgroundResource(R.color.background03_zp01yx_bwusb);
+                        tv_message.setBackgroundResource(R.color.yx02_background03_zp01yx_bwusb);
                         tv_message.setTextColor(getResources().getColor(R.color.blue_primary_zp01yx_bwusb));
                         break;
 

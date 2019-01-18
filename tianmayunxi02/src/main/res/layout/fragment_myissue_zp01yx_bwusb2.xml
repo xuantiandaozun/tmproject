@@ -13,7 +13,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textColor="@color/blue_primary"
-            android:background="@color/background03_zp01yx_bwusb"
+            android:background="@color/yx02_background03_zp01yx_bwusb"
             android:layout_height="match_parent"
             android:text="动态"/>
         <TextView
@@ -22,7 +22,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:background="@color/white"
-            android:textColor="@color/textcolor02"
+            android:textColor="@color/yx02_textcolor02"
             android:layout_height="match_parent"
             android:text="消息"/>
     </LinearLayout>

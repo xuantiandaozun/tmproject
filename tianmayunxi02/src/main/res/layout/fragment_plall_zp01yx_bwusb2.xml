@@ -42,7 +42,7 @@
                 android:layout_toRightOf="@+id/iv_head"
                 android:layout_marginLeft="@dimen/dp_10"
                 android:textSize="@dimen/material_font_13"
-                android:textColor="@color/textcolor02"
+                android:textColor="@color/yx02_textcolor02"
                 />
             <TextView
                 android:id="@+id/tv_title"
@@ -52,14 +52,14 @@
                 android:layout_marginLeft="@dimen/dp_10"
                 android:layout_marginTop="@dimen/material_5"
                 android:layout_toRightOf="@+id/iv_head"
-                android:textColor="@color/textcolor06"
+                android:textColor="@color/yx02_textcolor06"
                 android:textSize="@dimen/material_font_13"
                 />
         </RelativeLayout>
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/material_1"
-            android:background="@color/line01"/>
+            android:background="@color/yx02_line01"/>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -83,9 +83,9 @@
                     android:drawablePadding="@dimen/material_5"
                     android:gravity="center"
                     android:paddingLeft="@dimen/material_8"
-                    android:paddingTop="@dimen/material_3"
+                    android:paddingTop="@dimen/yx02_material_3"
                     android:paddingRight="@dimen/material_8"
-                    android:paddingBottom="@dimen/material_3"
+                    android:paddingBottom="@dimen/yx02_material_3"
                     android:text="举报"
                     android:textSize="@dimen/material_font_12"
                     rv:rv_backgroundColor="@color/blue_primary"
@@ -104,9 +104,9 @@
                     android:drawablePadding="@dimen/material_5"
                     android:gravity="center"
                     android:paddingLeft="@dimen/material_8"
-                    android:paddingTop="@dimen/material_3"
+                    android:paddingTop="@dimen/yx02_material_3"
                     android:paddingRight="@dimen/material_8"
-                    android:paddingBottom="@dimen/material_3"
+                    android:paddingBottom="@dimen/yx02_material_3"
                     android:text="复制"
                     android:textSize="@dimen/material_font_12"
                     rv:rv_backgroundColor="@color/blue_primary"
@@ -121,7 +121,7 @@
                 android:id="@+id/tv_time"
                 android:textSize="@dimen/material_font_12"
                 android:layout_width="wrap_content"
-                android:textColor="@color/textcolor01"
+                android:textColor="@color/yx02_textcolor01"
                 android:layout_centerVertical="true"
                 android:layout_height="wrap_content"
                 />
@@ -159,7 +159,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:textColor="@color/textcolor02"
+                android:textColor="@color/yx02_textcolor02"
                 android:layout_marginLeft="@dimen/material_10"
                 android:text="全部评论"
                 />
@@ -167,7 +167,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/material_1"
-            android:background="@color/line01"/>
+            android:background="@color/yx02_line01"/>
         <com.scwang.smartrefresh.layout.SmartRefreshLayout
             android:id="@+id/refreshLayout"
             android:layout_width="match_parent"
@@ -185,7 +185,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/material_1"
         android:layout_above="@+id/re_bottom"
-        android:background="@color/line01"/>
+        android:background="@color/yx02_line01"/>
     <LinearLayout
         android:id="@+id/re_bottom"
         android:layout_width="match_parent"
@@ -203,7 +203,7 @@
             android:paddingBottom="5dp"
             android:paddingLeft="18dp"
             android:paddingRight="18dp"
-            android:textColorHint="@color/textcolor01"
+            android:textColorHint="@color/yx02_textcolor01"
             android:paddingTop="5dp"
             android:textColor="@color/white"
             rv:rv_textColor="@color/textcolor01"
@@ -212,7 +212,9 @@
             rv:rv_strokeColor="@color/line02"
             rv:rv_strokeWidth="0.5dp"
             rv:rv_radiusHalfHeightEnable="true"
-            />
+            app:rv_backgroundColor="@color/yx02_background011"
+            app:rv_strokeColor="@color/yx02_line02"
+            app:rv_textColor="@color/yx02_textcolor01" />
         <com.aries.ui.view.radius.RadiusTextView
             android:id="@+id/btn_pl"
             android:layout_width="wrap_content"
@@ -233,7 +235,7 @@
             rv:rv_strokeWidth="0.5dp"
             android:layout_alignBottom="@+id/tv_time"
             rv:rv_textColor="@color/white"
-            />
+            app:rv_strokeColor="@color/yx02_line02" />
     </LinearLayout>
 
 </RelativeLayout>

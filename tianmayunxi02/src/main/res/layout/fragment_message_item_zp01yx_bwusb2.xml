@@ -21,7 +21,7 @@
             android:id="@+id/tv_username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textcolor02"
+            android:textColor="@color/yx02_textcolor02"
            />
         <LinearLayout
             android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/material_15"
-            android:textColor="@color/textcolor01"
+            android:textColor="@color/yx02_textcolor01"
             android:textSize="@dimen/material_font_12"
             android:text="6分钟前"/>
 
@@ -55,6 +55,6 @@
         android:id="@+id/iv"
         android:layout_alignParentRight="true"
         android:layout_width="@dimen/material_100"
-        fresco:roundedCornerRadius="@dimen/material_3"
+        fresco:roundedCornerRadius="@dimen/yx02_material_3"
         android:layout_height="@dimen/material_80" />
 </RelativeLayout>

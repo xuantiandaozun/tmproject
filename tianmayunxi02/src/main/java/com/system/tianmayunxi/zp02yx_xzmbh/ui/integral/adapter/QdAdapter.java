@@ -26,9 +26,9 @@ public class QdAdapter extends BaseQuickAdapter<ListSignBean.ListBean, BaseViewH
             helper.setText(R.id.tv_day,item.getDay()+"天");
         }
         if(item.isIs_sign()){
-            tv_point.setBackgroundResource(R.drawable.btn_yun_hui);
+            tv_point.setBackgroundResource(R.drawable.yx02_btn_yun_hui);
         }else {
-            tv_point.setBackgroundResource(R.drawable.btn_yun);
+            tv_point.setBackgroundResource(R.drawable.yx02_btn_yun);
         }
     }
 

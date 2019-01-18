@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/btn_yun"
+        android:background="@drawable/yx02_btn_yun"
         android:gravity="center"
         android:textColor="@color/white" />
 
@@ -21,6 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/material_5"
-        android:textColor="@color/textcolor02"
+        android:textColor="@color/yx02_textcolor02"
         android:textSize="@dimen/material_font_14" />
 </LinearLayout>

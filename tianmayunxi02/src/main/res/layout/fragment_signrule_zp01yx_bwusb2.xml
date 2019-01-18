@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/material_150"
         android:layout_below="@+id/titleBar"
-        android:background="@drawable/shape_gradient"/>
+        android:background="@drawable/yx02_shape_gradient"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -37,8 +37,8 @@
         <TextView
             android:id="@+id/tv_content"
             android:layout_width="match_parent"
-            android:layout_marginLeft="@dimen/material_15"
-            android:layout_marginRight="@dimen/material_15"
+            android:layout_marginLeft="@dimen/yx02_material_15"
+            android:layout_marginRight="@dimen/yx02_material_15"
             android:textSize="@dimen/material_font_13"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/material_150"

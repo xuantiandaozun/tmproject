@@ -54,7 +54,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_toLeftOf="@+id/iv_more"
                 android:layout_marginRight="@dimen/material_5"
-                android:textColor="@color/textcolor09"
+                android:textColor="@color/yx02_textcolor09"
                 android:textSize="@dimen/material_font_13"
                 />
         </RelativeLayout>
@@ -100,7 +100,7 @@
                         android:layout_toRightOf="@+id/iv_head"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:textSize="@dimen/material_font_13"
-                        android:textColor="@color/textcolor02"
+                        android:textColor="@color/yx02_textcolor02"
                         />
                     <TextView
                         android:id="@+id/tv_content"
@@ -110,7 +110,7 @@
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_marginTop="@dimen/material_5"
                         android:layout_toRightOf="@+id/iv_head"
-                        android:textColor="@color/textcolor03"
+                        android:textColor="@color/yx02_textcolor03"
                         android:textSize="@dimen/material_font_13"
                         />
                     <TextView
@@ -118,7 +118,7 @@
                         android:layout_alignParentRight="true"
                         android:textSize="@dimen/material_font_12"
                         android:layout_width="wrap_content"
-                        android:textColor="@color/textcolor01"
+                        android:textColor="@color/yx02_textcolor01"
                         android:layout_height="wrap_content"
                         />
                 </RelativeLayout>
@@ -139,7 +139,7 @@
                     <TextView
                         android:id="@+id/tv_username"
                         android:layout_toRightOf="@+id/user_head"
-                        android:textColor="@color/textcolor02"
+                        android:textColor="@color/yx02_textcolor02"
                         android:textSize="@dimen/material_font_13"
                         android:layout_marginLeft="@dimen/dp_10"
                         android:layout_width="wrap_content"
@@ -148,7 +148,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/material_1"
-                    android:background="@color/line01"/>
+                    android:background="@color/yx02_line01"/>
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -160,7 +160,7 @@
                         android:drawablePadding="@dimen/material_5"
                         android:drawableLeft="@mipmap/icon_good"
                         android:textSize="@dimen/material_font_13"
-                        android:textColor="@color/textcolor01"
+                        android:textColor="@color/yx02_textcolor01"
                         />
                     <TextView
                         android:id="@+id/tv_comments"
@@ -170,7 +170,7 @@
                         android:drawableLeft="@mipmap/icon_pl"
                         android:textSize="@dimen/material_font_13"
                         android:layout_centerHorizontal="true"
-                        android:textColor="@color/textcolor01"
+                        android:textColor="@color/yx02_textcolor01"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -178,7 +178,7 @@
                         android:drawablePadding="@dimen/material_5"
                         android:drawableLeft="@mipmap/icon_share"
                         android:textSize="@dimen/material_font_13"
-                        android:textColor="@color/textcolor01"
+                        android:textColor="@color/yx02_textcolor01"
                         android:layout_alignParentRight="true"
                         />
                 </RelativeLayout>
@@ -202,7 +202,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/textcolor02"
+                    android:textColor="@color/yx02_textcolor02"
                     android:layout_marginLeft="@dimen/material_10"
                     android:text="全部评论"
                     />
@@ -210,7 +210,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/material_1"
-                android:background="@color/line01"/>
+                android:background="@color/yx02_line01"/>
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/pl_mlist"
                 android:layout_width="match_parent"
@@ -221,7 +221,7 @@
         android:id="@+id/re_bottom"
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
-        android:background="@color/background09"
+        android:background="@color/yx02_background09"
         android:padding="@dimen/material_5"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
@@ -236,14 +236,14 @@
             android:paddingBottom="5dp"
             android:paddingLeft="18dp"
             android:paddingRight="18dp"
-            android:textColorHint="@color/textcolor08"
+            android:textColorHint="@color/yx02_textcolor08"
             android:paddingTop="5dp"
             android:textColor="@color/white"
             rv:rv_textColor="@color/white"
             rv:rv_backgroundColor="@color/background010"
             rv:rv_radius="10dp"
             rv:rv_radiusHalfHeightEnable="true"
-          />
+            app:rv_backgroundColor="@color/yx02_background010" />
         <ImageView
             android:id="@+id/iv_pl"
             android:layout_width="wrap_content"

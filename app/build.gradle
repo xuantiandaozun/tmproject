@@ -114,8 +114,8 @@ dependencies {
   //  compile project(':tianmayunxi02')
    // compile project(':tianmayunxi')
     //compile project(':tmhxdl')
-    implementation 'com.github.xuantiandaozun.tmproject:tmhxdl:0.0.1-t2'
-    implementation 'com.github.xuantiandaozun.tmproject:tianmayunxi:0.0.1-t2'
-    implementation 'com.github.xuantiandaozun.tmproject:tianmayunxi02:0.0.1-t2'
+    implementation 'com.github.xuantiandaozun.tmproject:tmhxdl:0.0.1-t3'
+    implementation 'com.github.xuantiandaozun.tmproject:tianmayunxi:0.0.1-t3'
+    implementation 'com.github.xuantiandaozun.tmproject:tianmayunxi02:0.0.1-t3'
 
 }

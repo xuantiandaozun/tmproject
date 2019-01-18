@@ -3,8 +3,8 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:focusable="true"
-    android:divider="@drawable/divider"
-    android:background="@drawable/bg_amount_layout"
+    android:divider="@drawable/yx01_divider"
+    android:background="@drawable/yx01_bg_amount_layout"
     android:showDividers="middle"
     android:orientation="horizontal">
 
@@ -14,7 +14,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:background="@drawable/btn_amount"
+        android:background="@drawable/yx01_btn_amount"
         android:text="-"/>
 
     <TextView
@@ -35,6 +35,6 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center"
-        android:background="@drawable/btn_amount"
+        android:background="@drawable/yx01_btn_amount"
         android:text="+"/>
 </LinearLayout>

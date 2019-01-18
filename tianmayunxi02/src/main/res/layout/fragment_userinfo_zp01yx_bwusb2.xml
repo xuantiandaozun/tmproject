@@ -23,10 +23,10 @@
         android:padding="@dimen/material_10">
         <TextView
             android:id="@+id/tv1"
-            android:layout_width="@dimen/material_70"
+            android:layout_width="@dimen/yx02_material_70"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="@color/textcolor06"
+            android:textColor="@color/yx02_textcolor06"
             android:text="我的头像"/>
         <com.facebook.drawee.view.SimpleDraweeView
             android:id="@+id/head"
@@ -64,7 +64,7 @@
             android:layout_width="@dimen/material_70"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="@color/textcolor06"
+            android:textColor="@color/yx02_textcolor06"
             android:text="登录账号"/>
         <TextView
             android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
         android:layout_marginLeft="@dimen/material_20"
         android:layout_marginRight="@dimen/material_20"
         android:layout_height="@dimen/material_1"
-        android:background="@color/line01"/>
+        android:background="@color/yx02_line01"/>
     <RelativeLayout
         android:id="@+id/re_nickname"
         android:layout_width="match_parent"
@@ -108,7 +108,7 @@
             android:id="@+id/tv3"
             android:layout_width="@dimen/material_70"
             android:layout_height="wrap_content"
-            android:textColor="@color/textcolor06"
+            android:textColor="@color/yx02_textcolor06"
             android:layout_centerVertical="true"
             android:text="昵称"/>
         <TextView
@@ -142,7 +142,7 @@
         android:layout_marginLeft="@dimen/material_20"
         android:layout_marginRight="@dimen/material_20"
         android:layout_height="@dimen/material_1"
-        android:background="@color/line01"/>
+        android:background="@color/yx02_line01"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
             android:layout_width="@dimen/material_70"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="@color/textcolor06"
+            android:textColor="@color/yx02_textcolor06"
             android:text="性别"/>
         <TextView
             android:layout_width="wrap_content"
@@ -192,7 +192,7 @@
             android:layout_width="@dimen/material_70"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:textColor="@color/textcolor06"
+            android:textColor="@color/yx02_textcolor06"
             android:text="简介"/>
         <TextView
             android:layout_width="wrap_content"
