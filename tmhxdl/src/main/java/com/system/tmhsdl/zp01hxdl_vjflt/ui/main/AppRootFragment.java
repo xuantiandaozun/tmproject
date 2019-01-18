@@ -9,7 +9,6 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 
 import com.system.myproject.base.BaseFragment;
-import com.system.myproject.base.MVPBaseFragment;
 import com.system.myproject.base.MVPBasePresenter;
 
 import com.system.tmhsdl.zp01hxdl_vjflt.HxdlRouterConfig;
@@ -34,7 +33,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import butterknife.BindView;
-import me.yokeyword.fragmentation.SupportFragment;
 
 /**
  * 创建人： zhoudingwen
@@ -77,7 +75,7 @@ public class AppRootFragment extends BaseFragment {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_root;
+        return R.layout.hxdl_fragment_root;
     }
 
     @Override

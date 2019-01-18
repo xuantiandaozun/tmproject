@@ -17,7 +17,6 @@ import com.system.myproject.base.BaseFragment;
 import com.system.myproject.utils.GsonUtil;
 import com.system.myproject.utils.ToastUtil;
 import com.system.myproject.utils.UEMethod;
-import com.system.tmhsdl.zp01hxdl_vjflt.BuildConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.HxdlRouterConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.R;
 import com.system.tmhsdl.zp01hxdl_vjflt.R2;
@@ -74,7 +73,7 @@ public class DYFragment extends BaseFragment<DzsContract.View, DzsPresenter>
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_dy;
+        return R.layout.hxdl_fragment_dy;
     }
 
     @Override

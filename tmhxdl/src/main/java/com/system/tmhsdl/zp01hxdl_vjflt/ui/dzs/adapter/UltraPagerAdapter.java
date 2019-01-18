@@ -39,10 +39,7 @@ import android.widget.LinearLayout;
 
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.system.tmhsdl.zp01hxdl_vjflt.BuildConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.R;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.ImageFetailFragment;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.BookDetail;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.ContentListBean;
 import com.tenma.ventures.GlideApp;
 import com.tenma.ventures.bean.utils.TMSharedPUtil;
@@ -87,7 +84,7 @@ public class UltraPagerAdapter extends PagerAdapter {
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-        LinearLayout linearLayout = (LinearLayout) LayoutInflater.from(container.getContext()).inflate(R.layout.layout_child, null);
+        LinearLayout linearLayout = (LinearLayout) LayoutInflater.from(container.getContext()).inflate(R.layout.hxdl_layout_child, null);
         //new LinearLayout(container.getContext());
         ImageView textView = (ImageView) linearLayout.findViewById(R.id.pager_textview);
         textView.setOnClickListener(new View.OnClickListener() {

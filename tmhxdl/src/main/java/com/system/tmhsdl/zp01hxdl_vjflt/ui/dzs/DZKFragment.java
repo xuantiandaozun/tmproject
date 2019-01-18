@@ -8,7 +8,6 @@ import android.view.View;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.chad.library.adapter.base.BaseQuickAdapter;
-import com.chad.library.adapter.base.entity.MultiItemEntity;
 import com.google.gson.Gson;
 import com.library.flowlayout.SpaceItemDecoration;
 
@@ -18,7 +17,6 @@ import com.scwang.smartrefresh.layout.listener.OnLoadMoreListener;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.system.myproject.base.BaseFragment;
 import com.system.myproject.utils.GsonUtil;
-import com.system.myproject.utils.ToastUtil;
 import com.system.myproject.utils.UEMethod;
 
 import com.system.tmhsdl.zp01hxdl_vjflt.HxdlRouterConfig;
@@ -26,7 +24,6 @@ import com.system.tmhsdl.zp01hxdl_vjflt.R;
 import com.system.tmhsdl.zp01hxdl_vjflt.R2;
 import com.system.tmhsdl.zp01hxdl_vjflt.bean.EventCallBackBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.adapter.DZKAdapter;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.IconBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.InssBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.contract.DzsContract;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.presenter.DzsPresenter;
@@ -38,8 +35,6 @@ import java.util.List;
 import java.util.Set;
 
 import butterknife.BindView;
-import me.yokeyword.fragmentation.SupportFragment;
-import okhttp3.RequestBody;
 
 
 @Route(path = HxdlRouterConfig.HXDL_DZK)
@@ -63,7 +58,7 @@ public class DZKFragment extends BaseFragment<DzsContract.View, DzsPresenter>
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_dzk;
+        return R.layout.hxdl_fragment_dzk;
     }
 
     @Override

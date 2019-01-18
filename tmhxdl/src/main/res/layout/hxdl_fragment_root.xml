@@ -7,7 +7,7 @@
         android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="@dimen/material_20"
-        android:background="@color/background02"/>
+        android:background="@color/hxdl_background02"/>
     <net.lucode.hackware.magicindicator.MagicIndicator
         android:id="@+id/magic_indicator5"
         android:layout_width="match_parent"

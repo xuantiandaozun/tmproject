@@ -14,7 +14,7 @@
         app:title_dividerColor="?attr/primary"
         app:title_leftTextColor="@color/white"
         app:title_rightTextColor="@color/white"
-        app:title_titleMainTextColor="@color/background01"
+        app:title_titleMainTextColor="@color/hxdl_background01"
         app:title_titleSubTextColor="@color/white" />
     <RelativeLayout
         android:id="@+id/re"
@@ -26,7 +26,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/material_20"
-            android:background="@color/background01"
+            android:background="@color/hxdl_background01"
             >
         </View>
         <com.facebook.drawee.view.SimpleDraweeView
@@ -86,7 +86,7 @@
         android:padding="@dimen/dp_10"
         android:layout_marginTop="@dimen/material_10"
         android:layout_marginBottom="@dimen/material_10"
-        android:background="@color/background01"
+        android:background="@color/hxdl_background01"
         android:text="购买(如以订阅, 请先登录)"
         />
     <ImageView

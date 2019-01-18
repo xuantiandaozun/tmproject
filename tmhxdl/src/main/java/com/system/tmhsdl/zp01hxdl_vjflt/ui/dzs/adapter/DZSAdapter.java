@@ -7,10 +7,8 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.system.tmhsdl.zp01hxdl_vjflt.BuildConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.R;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.BookBean;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.IconBean;
 import com.tenma.ventures.bean.utils.TMSharedPUtil;
 
 
@@ -18,7 +16,7 @@ import java.util.List;
 
 public class DZSAdapter extends BaseQuickAdapter<BookBean.ListBean, BaseViewHolder> {
     public DZSAdapter(@Nullable List<BookBean.ListBean> data) {
-        super(R.layout.fragment_dzs_item, data);
+        super(R.layout.hxdl_fragment_dzs_item, data);
     }
 
     @Override

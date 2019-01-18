@@ -15,7 +15,7 @@
         app:title_dividerColor="?attr/primary"
         app:title_leftTextColor="@color/white"
         app:title_rightTextColor="@color/white"
-        app:title_titleMainTextColor="@color/background01"
+        app:title_titleMainTextColor="@color/hxdl_background01"
         app:title_titleSubTextColor="@color/white" />
     <android.support.v7.widget.RecyclerView
         android:id="@+id/mainlist"

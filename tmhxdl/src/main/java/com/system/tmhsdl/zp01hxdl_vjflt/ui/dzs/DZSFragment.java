@@ -17,7 +17,6 @@ import com.scwang.smartrefresh.layout.listener.OnLoadMoreListener;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.system.myproject.base.BaseFragment;
 import com.system.myproject.utils.GsonUtil;
-import com.system.myproject.utils.ToastUtil;
 import com.system.myproject.utils.UEMethod;
 
 import com.system.tmhsdl.zp01hxdl_vjflt.HxdlRouterConfig;
@@ -26,8 +25,6 @@ import com.system.tmhsdl.zp01hxdl_vjflt.R2;
 import com.system.tmhsdl.zp01hxdl_vjflt.bean.EventCallBackBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.adapter.DZSAdapter;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.BookBean;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.IconBean;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.InssBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.contract.DzsContract;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.presenter.DzsPresenter;
 
@@ -60,7 +57,7 @@ public class DZSFragment extends BaseFragment<DzsContract.View, DzsPresenter>
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_dzs;
+        return R.layout.hxdl_fragment_dzs;
     }
 
     @Override

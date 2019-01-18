@@ -1,18 +1,13 @@
 package com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.facade.annotation.Autowired;
@@ -21,23 +16,19 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.bumptech.glide.Glide;
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.google.gson.Gson;
-import com.google.gson.JsonElement;
 import com.system.myproject.base.MVPBaseFragment;
 import com.system.myproject.base.TMBaseFragment;
 import com.system.myproject.utils.GsonUtil;
 import com.system.myproject.utils.ToastUtil;
-import com.system.tmhsdl.zp01hxdl_vjflt.BuildConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.HxdlRouterConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.R;
 import com.system.tmhsdl.zp01hxdl_vjflt.R2;
 import com.system.tmhsdl.zp01hxdl_vjflt.bean.EventCallBackBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.adapter.Adapter;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.BookDetail;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.InssBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.InssDetail;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.contract.DzsContract;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.presenter.DzsPresenter;
-import com.system.uilibrary.dialog.DialogsTools;
 import com.system.uilibrary.views.titlebar.TitleBarView;
 import com.tenma.ventures.bean.utils.TMPayUtil;
 import com.tenma.ventures.bean.utils.TMSharedPUtil;
@@ -50,12 +41,9 @@ import java.util.Set;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import me.yokeyword.fragmentation.SupportFragment;
 import okhttp3.RequestBody;
 import recycler.coverflow.CoverFlowLayoutManger;
 import recycler.coverflow.RecyclerCoverFlow;
-
-import static com.system.myproject.utils.GsonUtil.GsonString;
 
 
 @Route(path = HxdlRouterConfig.HXDL_DZKDETAIL)
@@ -104,7 +92,7 @@ public class DZKDetailFragment extends MVPBaseFragment<DzsContract.View, DzsPres
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_dzsdetail;
+        return R.layout.hxdl_fragment_dzsdetail;
     }
 
     @Override

@@ -10,16 +10,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
 import com.bumptech.glide.request.transition.Transition;
-import com.system.tmhsdl.zp01hxdl_vjflt.BuildConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.R;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.InssDetail;
 import com.tenma.ventures.GlideApp;
 import com.tenma.ventures.bean.utils.TMSharedPUtil;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -48,7 +45,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(mContext).inflate(R.layout.layout_item, parent, false);
+        View v = LayoutInflater.from(mContext).inflate(R.layout.hxdl_layout_item, parent, false);
         return new ViewHolder(v);
     }
 

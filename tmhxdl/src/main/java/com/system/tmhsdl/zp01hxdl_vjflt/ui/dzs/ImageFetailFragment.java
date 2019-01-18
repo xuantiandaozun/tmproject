@@ -1,38 +1,29 @@
 package com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs;
 
 import android.graphics.Color;
-import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.PagerSnapHelper;
 import android.support.v7.widget.RecyclerView;
-import android.text.TextUtils;
 import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Autowired;
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.system.myproject.base.MVPBaseFragment;
 
 import com.system.myproject.utils.GsonUtil;
 import com.system.myproject.utils.ToastUtil;
-import com.system.tmhsdl.zp01hxdl_vjflt.BuildConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.HxdlRouterConfig;
 import com.system.tmhsdl.zp01hxdl_vjflt.R;
 import com.system.tmhsdl.zp01hxdl_vjflt.R2;
 import com.system.tmhsdl.zp01hxdl_vjflt.bean.EventCallBackBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.adapter.IVBottomAdapter;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.adapter.IVMainAdapter;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.adapter.UltraPagerAdapter;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.adapter.UltraPagerAdapter2;
-import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.BookDetail;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.bean.ContentListBean;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.contract.DzsContract;
 import com.system.tmhsdl.zp01hxdl_vjflt.ui.dzs.presenter.DzsPresenter;
 import com.system.uilibrary.views.titlebar.TitleBarView;
-import com.tenma.ventures.bean.utils.TMPayUtil;
 import com.tenma.ventures.bean.utils.TMSharedPUtil;
-import com.tmall.ultraviewpager.UltraViewPager;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -81,7 +72,7 @@ public class ImageFetailFragment extends MVPBaseFragment<DzsContract.View, DzsPr
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.fragment_imagedetail;
+        return R.layout.hxdl_fragment_imagedetail;
     }
 
     @Override

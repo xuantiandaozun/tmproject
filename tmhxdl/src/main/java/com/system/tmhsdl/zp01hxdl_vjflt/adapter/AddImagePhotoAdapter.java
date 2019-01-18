@@ -22,7 +22,7 @@ public class AddImagePhotoAdapter extends BaseQuickAdapter<AttachmentEntity, Bas
     ImageView attachmentFileIv;
     ImageView attachmentFileDeleteIv;
     public AddImagePhotoAdapter() {
-        super(R.layout.layout_attachment_view);
+        super(R.layout.hxdl_layout_attachment_view);
     }
 
     @Override

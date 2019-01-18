@@ -42,7 +42,7 @@ public class FragmentActivity extends MVPBaseActivity {
 
     @Override
     protected int getLayoutResId() {
-        return R.layout.activity_fragment;
+        return R.layout.hxdl_activity_fragment;
     }
 
     @Override
