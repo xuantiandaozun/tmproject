@@ -112,10 +112,6 @@ dependencies {
     //个人中心
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    api 'com.github.xuantiandaozun.newtmproject:tianmayunxi:0.0.1'
-    api 'com.github.xuantiandaozun.newtmproject:tmhxdl:0.0.1'
-    api 'com.github.xuantiandaozun.newtmproject:tianmayunxi02:0.0.1'
-
-
+    implementation 'com.github.xuantiandaozun:tnyunxi01:0.0.1-t1'
 
 }
